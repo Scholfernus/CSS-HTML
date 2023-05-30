@@ -12,10 +12,7 @@ h1 {
 span{
     color: gray;
 }
-img {
-    width: 140px;
-     height:180px;
-}
+
 section, header {
     padding: 10px 60px 20px 60px;
     background-color: aliceblue;
@@ -47,4 +44,8 @@ header li {
 
 .circle {
     border-radius: 50%;
+}
+.profile-picture {
+    width: 140px;
+    height: 180px;
 }
