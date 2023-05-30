@@ -1,11 +1,13 @@
 body {
     font-family: Arial;
+    background-color: rgb(189, 219, 245);
+    padding: 40px 0;
 }
 h2 {
     font-size: 28px;
 }
 h1 {
-    font-size: 36px;"
+    font-size: 36px;
 }
 span{
     color: gray;
@@ -13,4 +15,15 @@ span{
 img {
     width: 140px;
      height:180px;
+}
+section, header {
+    padding: 10px 60px 20px 60px;
+    background-color: aliceblue;
+    width: 960px;
+    margin: 0 auto;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
