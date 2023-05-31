@@ -3,13 +3,20 @@ body {
     background-color: rgb(189, 219, 245);
     padding: 40px 0;
 }
-h2 {
-    font-size: 28px;
-}
+
 h1 {
     font-size: 36px;
 }
-span{
+
+h2 {
+    font-size: 28px;
+}
+
+h3  {
+    margin-top: 5px;
+}
+
+span {
     color: gray;
 }
 
@@ -48,4 +55,29 @@ header li {
 .profile-picture {
     width: 140px;
     height: 180px;
+}
+
+.hobbies {
+    list-style: none;
+    padding: 0; 
+    display: flex ;
+    flex-wrap: wrap;
+}
+.hobbies li {
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 40px4;
+}
+
+.hobbies div {
+    margin-left: 20px;
+}
+
+.hobbies p {
+    color: gray;
+}
+
+p {
+    line-height: 1.5;
 }
