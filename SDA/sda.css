@@ -1,6 +1,9 @@
 body {
     background-color: #aff6c4;
 }
+.main-app {
+    background-color: aquamarine;
+}
 
 ul li a {
     color: rgb(15, 147, 15);
